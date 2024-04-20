@@ -1,72 +1,72 @@
 Mods: {
 	PetRenamer: {
 		Keybinds: {
-			// RenamePet.DisplayName: Rename Pet
-			// Unbound: <unbound>
+			RenamePet.DisplayName: 宠物改名
+			Unbound: <unbound>
 		}
 
 		Configs: {
 			Config: {
-				// DisplayName: Config
+				DisplayName: 配置
 
 				EnableChatAutofill: {
-					// Label: Enable Chat Autofill
-					// Tooltip: If chat should autofill the command automatically when a pet item is selected
+					Label: 自动填充宠物改名指令
+					Tooltip: 是否在选中宠物物品时自动填充改名指令
 				}
 
 				ShowPetNameInSelectScreen: {
-					// Label: Show Pet Name In Select Screen
-					// Tooltip: If the pet name should show up on the player select screen
+					Label: 选择玩家时显示宠物名称
+					Tooltip: 是否在玩家选择界面显示宠物名称
 				}
 			}
 		}
 
 		Commands: {
 			PRCommand: {
-				// Description: Set a name or rename the pet item in your mouse. {0} = {1} -> remove name
-				// NicknameReset: Nickname '{0}' reset
-				// NamedNew: Named the pet summoned by {0} '{1}'
-				// NamedSame: Pet is already called '{0}'
-				// Renamed: Renamed the pet summoned by {0} from '{1}' to '{2}'
-				// NoItem: No item to rename! Hold a pet summon item in your cursor
-				// InvalidItem: "{0} is not a valid item!"
+				Description: 将光标拿起的宠物物品改名；{0} = {1} -> 清除名称
+				NicknameReset: 昵称“{0}”已重置
+				NamedNew: 将{0}召唤的宠物命名为了“{1}”
+				NamedSame: 宠物本就名为“{0}”
+				Renamed: 将{0}召唤的宠物“{1}”改名为了“{2}”
+				NoItem: 没有宠物物品！请用光标拿起一个召唤宠物的物品
+				InvalidItem: "{0}不是宠物物品！"
 			}
 		}
 
-		// Buffs.PetBuff.Name: Name: {0}
+		Buffs.PetBuff.Name: 名称：{0}
 
 		Items: {
 			PetItems: {
-				// PetName: Pet Name: {0}
-				// PetOwner: Owner: {0}
-				// PetRename: PetRenamer: Press '{0}' to name your pet
+				PetName: 宠物名称：{0}
+				PetOwner: 主人：{0}
+				PetRename: 宠物改名：按“{0}”为宠物命名
 			}
 		}
 
 		UI: {
 			RenamePetUI: {
-				// Title: Rename Pet
-				// SlotMouseover: Place a pet summoning item here
-				/* SlotMouseoverSlow:
+				Title: 宠物改名
+				SlotMouseover: 放入召唤宠物的物品
+				SlotMouseoverSlow:
 					'''
-					1. Place a pet summoning item here
-					2. Type a name into the text box
-					2. (optional) Press 'Clear' to delete the text
-					2. (optional) Press 'Random' for a random name
-					3. Press 'Apply' to set the text from the text box as the name for the pet
-					3. (optional) Take out the item
-					4. Press 'X' to close. Item will be returned to you if it's still in the UI
-					Note: If you leave the UI with the item in it open and close the game, it will appear again next time you play
-					''' */
-				// SlotMouseoverVerySlowEasterEgg: Santa isn't real
-				// Input: Enter Name Here
-				// ApplyButton: Apply
-				// RandomButton: Random
-				// ClearButton: Clear
-				// CloseButton: Close
+					1. 放入召唤宠物的物品
+					2. 在文本框中输入名称
+					2. 可按“清除”删除输入的名称
+					2. 可按“随机”生成随机名称
+					3. 按“确定”将宠物名称改为文本框中的
+					3. 可拿出物品
+					4. 按“X”按钮关闭 UI，没拿出来的物品会返还给你
+					注：如果你不拿出物品直接退出游戏，下次游玩时 UI 会重新打开
+					'''
+				SlotMouseoverVerySlowEasterEgg: 圣诞老人是假的
+				Input: 在此输入名称
+				ApplyButton: 确定
+				RandomButton: 随机
+				ClearButton: 清除
+				CloseButton: 关闭
 			}
 		}
 
-		// PlayerSelectScreenUI.PetNameInSelectScreen: "{0} & {1}"
+		PlayerSelectScreenUI.PetNameInSelectScreen: "{0} & {1}"
 	}
 }
