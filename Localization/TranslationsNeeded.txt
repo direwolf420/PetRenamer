@@ -4,6 +4,6 @@ it-IT, 28/28, 100%, missing 0
 fr-FR, 0/28, 0%, missing 28
 es-ES, 0/28, 0%, missing 28
 ru-RU, 28/28, 100%, missing 0
-zh-Hans, 0/28, 0%, missing 28
+zh-Hans, 28/28, 100%, missing 0
 pt-BR, 0/28, 0%, missing 28
 pl-PL, 0/28, 0%, missing 28

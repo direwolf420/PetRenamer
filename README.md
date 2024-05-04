@@ -53,12 +53,6 @@ Example:
 
 `/renamepet reset` >> deletes the current name
 
-Demonstration (gfycat videos):
-
-[Setting a name](https://gfycat.com/unsteadysplendidannelid)
-
-[Removing a name](https://gfycat.com/flickeringringediraniangroundjay)
-
 Credits:
 * jopojelly for UI
 * darthmorf for UI help
@@ -71,3 +65,4 @@ Translate things that are in english and commented out (either via `//` or `/* *
 List of localization contributors:
 * Russian: **GodHybrid**
 * Italian: **Sea Noodle**
+* Simplified Chinese: **Fox Radish, Lacewing**
