@@ -66,3 +66,4 @@ List of localization contributors:
 * Russian: **GodHybrid**
 * Italian: **Sea Noodle**
 * Simplified Chinese: **Fox Radish, Lacewing**
+* Spanish: **CDT_Maggot**

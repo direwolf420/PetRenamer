@@ -12,3 +12,4 @@ List of localization contributors:
 * Russian: [b]GodHybrid[/b]
 * Italian: [b]Sea Noodle[/b]
 * Simplified Chinese: [b]Fox Radish, Lacewing[/b]
+* Spanish: [b]CDT_Maggot[/b]

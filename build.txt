@@ -1,5 +1,5 @@
 author = direwolf420
-version = 1.3.0.3
+version = 1.3.0.4
 displayName = PetRenamer
 homepage = https://forums.terraria.org/index.php?threads/pet-renamer-allows-you-to-name-your-pets.79293/
 hideCode = true

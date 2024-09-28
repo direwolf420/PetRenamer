@@ -1,72 +1,72 @@
 Mods: {
 	PetRenamer: {
 		Keybinds: {
-			// RenamePet.DisplayName: Rename Pet
-			// Unbound: <unbound>
+			RenamePet.DisplayName: Cambia el Nombre de tu Mascota
+			Unbound: <Sin establecer>
 		}
 
 		Configs: {
 			Config: {
-				// DisplayName: Config
+				DisplayName: Configuración
 
 				EnableChatAutofill: {
-					// Label: Enable Chat Autofill
-					// Tooltip: If chat should autofill the command automatically when a pet item is selected
+					Label: Permite que el chat se autocomplete
+					Tooltip: El chat autocompletará automáticamente el comando cuando una mascota es seleccionada
 				}
 
 				ShowPetNameInSelectScreen: {
-					// Label: Show Pet Name In Select Screen
-					// Tooltip: If the pet name should show up on the player select screen
+					Label: Muestra el nombre de la Mascota en la pantalla de Selección
+					Tooltip: Permite que se muestre el nombre de la mascota en la pantalla de selección
 				}
 			}
 		}
 
 		Commands: {
 			PRCommand: {
-				// Description: Set a name or rename the pet item in your mouse. {0} = {1} -> remove name
-				// NicknameReset: Nickname '{0}' reset
-				// NamedNew: Named the pet summoned by {0} '{1}'
-				// NamedSame: Pet is already called '{0}'
-				// Renamed: Renamed the pet summoned by {0} from '{1}' to '{2}'
-				// NoItem: No item to rename! Hold a pet summon item in your cursor
-				// InvalidItem: "{0} is not a valid item!"
+				Description: Fija o cambia el nombre del objeto mascota de la mascota en tu mouse. {0} = {1} -> Quita el nombre
+				NicknameReset: Reincia '{0}' el apodo
+				NamedNew: Nombrar la mascota invocada por {0} a '{1}'
+				NamedSame: La mascota ya fue llamada '{0}'
+				Renamed: Cambió el nombre la mascota invocada por {0} de '{1}' a '{2}'
+				NoItem: No hay objeto al que cambiarle el nombre! Mantén un objeto de invocación de mascota sobre tu cursor
+				InvalidItem: "{0} no es un objeto valido!"
 			}
 		}
 
-		// Buffs.PetBuff.Name: Name: {0}
+		Buffs.PetBuff.Name: Nombre: {0}
 
 		Items: {
 			PetItems: {
-				// PetName: Pet Name: {0}
-				// PetOwner: Owner: {0}
-				// PetRename: PetRenamer: Press '{0}' to name your pet
+				PetName: Nombre de la Mascota: {0}
+				PetOwner: Dueño: {0}
+				PetRename: RenombraMascotas: Presiona '{0}' para asignar un nombre a tu mascota
 			}
 		}
 
 		UI: {
 			RenamePetUI: {
-				// Title: Rename Pet
-				// SlotMouseover: Place a pet summoning item here
-				/* SlotMouseoverSlow:
+				Title: Renombrar Mascota
+				SlotMouseover: Coloca un objeto de invocación de mascotas aquí
+				SlotMouseoverSlow:
 					'''
-					1. Place a pet summoning item here
-					2. Type a name into the text box
-					2. (optional) Press 'Clear' to delete the text
-					2. (optional) Press 'Random' for a random name
-					3. Press 'Apply' to set the text from the text box as the name for the pet
-					3. (optional) Take out the item
-					4. Press 'X' to close. Item will be returned to you if it's still in the UI
-					Note: If you leave the UI with the item in it open and close the game, it will appear again next time you play
-					''' */
-				// SlotMouseoverVerySlowEasterEgg: Santa isn't real
-				// Input: Enter Name Here
-				// ApplyButton: Apply
-				// RandomButton: Random
-				// ClearButton: Clear
-				// CloseButton: Close
+					1. Coloca un objeto de invocación de mascotas aquí
+					2. Escribe un nombre en la caja de texto
+					2. Presiona 'Limpiar' para borrar el texto(opcional)
+					2. Presiona 'Aleatorio' para un nombre aleatorio(opcional)
+					3. Presiona 'Aplicar' para asignar el texto como nombre de tu mascota
+					3. Quita el objeto(opcional)
+					4. Presiona 'X' para cerrar. El objeto te será devuelto si sigue en la UI
+					Nota: Si dejas la UI abierta con el objeto todavia en el y abandonas el juego, aparecera de nuevo la proxima vez que juegues
+					'''
+				SlotMouseoverVerySlowEasterEgg: Papa Noel no existe
+				Input: Introduce aquí tu nombre
+				ApplyButton: Aplicar
+				RandomButton: Aleatorio
+				ClearButton: Limpiar
+				CloseButton: Cerrar
 			}
 		}
 
-		// PlayerSelectScreenUI.PetNameInSelectScreen: "{0} & {1}"
+		PlayerSelectScreenUI.PetNameInSelectScreen: "{0} Y {1}"
 	}
 }
