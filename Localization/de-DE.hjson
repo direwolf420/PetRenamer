@@ -1,65 +1,73 @@
 Mods: {
-  PetRenamer: {
-    Keybinds: {
-      RenamePet.DisplayName: Haustier umbenennen
-      Unbound: "<nicht gebunden>"
-    }
+	PetRenamer: {
+		Keybinds: {
+			RenamePet.DisplayName: Haustier umbenennen
+			Unbound: <nicht gebunden>
+		}
 
-    Configs: {
-      Config: {
-        EnableChatAutofill: {
-          Label: "Chat-Autofill aktivieren"
-          Tooltip: "Wenn der Chat automatisch den Befehl ausfüllen soll, wenn ein Haustiergegenstand ausgewählt ist"
-        }
+		Configs: {
+			Config: {
+				DisplayName: Konfiguration
 
-        ShowPetNameInSelectScreen: {
-          Label: "Haustiernamen im Auswahlbildschirm anzeigen"
-          Tooltip: "Ob der Name des Haustiers im Spieler-Auswahlbildschirm angezeigt werden soll"
-        }
-      }
-    }
+				EnableChatAutofill: {
+					Label: Chat-Autovervollständigung aktivieren
+					Tooltip: Ob der Chat den Befehl automatisch ausfüllen soll, wenn ein Haustier-Item ausgewählt wird
+				}
 
-    Commands: {
-      PRCommand: {
-        Description: "Setze einen Namen oder benenne das Haustier im Mauszeiger um. {0} = {1} -> Name entfernen"
-        NicknameReset: "Spitzname '{0}' zurückgesetzt"
-        NamedNew: "Haustier, das von {0} beschworen wurde, wurde '{1}' genannt"
-        NamedSame: "Haustier heißt bereits '{0}'"
-        Renamed: "Haustier, das von {0} beschworen wurde, wurde von '{1}' in '{2}' umbenannt"
-        NoItem: "Kein Gegenstand zum Umbenennen! Halte einen Haustierbeschwörunggegenstand im Cursor"
-        InvalidItem: "{0} ist kein gültiger Gegenstand!"
-      }
-    }
+				ShowPetNameInSelectScreen: {
+					Label: Haustiername im Auswahlbildschirm anzeigen
+					Tooltip: Ob der Name des Haustiers im Spielerauswahlbildschirm angezeigt werden soll
+				}
+			}
+		}
 
-    Items: {
-      PetItems: {
-        PetName: "Haustier Name: {0}"
-        PetOwner: "Besitzer: {0}"
-        PetRename: "Haustier umbenennen: Drücke '{0}', um deinem Haustier einen Namen zu geben"
-      }
-    }
+		Commands: {
+			PRCommand: {
+				Description: Setze einen Namen oder benenne das Haustier-Item in deiner Maus um. {0} = {1} -> Name entfernen
+				NicknameReset: Spitzname '{0}' zurückgesetzt
+				NamedNew: Haustier, beschworen von {0}, benannt als '{1}'
+				NamedSame: Das Haustier heißt bereits '{0}'
+				Renamed: Haustier, beschworen von {0}, umbenannt von '{1}' zu '{2}'
+				NoItem: Kein Item zum Umbenennen! Halte ein Haustier-Beschwörungsitem im Cursor
+				InvalidItem: "{0} ist kein gültiges Item!"
+			}
+		}
 
-    UI: {
-      RenamePetUI: {
-        Title: "Haustier umbenennen"
-        SlotMouseover: "Platziere einen Haustierbeschwörunggegenstand hier"
-        SlotMouseoverSlow: '''
-          1. Platziere einen Haustierbeschwörunggegenstand hier
-          2. Gib einen Namen in das Textfeld ein
-          3. (optional) Drücke 'Clear', um den Text zu löschen
-          4. (optional) Drücke 'Random', um einen zufälligen Namen zu wählen
-          5. Drücke 'Apply', um den Text aus dem Textfeld als Namen für das Haustier festzulegen
-          6. (optional) Nimm den Gegenstand heraus
-          7. Drücke 'X', um zu schließen. Der Gegenstand wird dir zurückgegeben, wenn er noch im UI ist
-          Hinweis: Wenn du das UI mit dem Gegenstand darin verlässt und das Spiel schließt, wird es beim nächsten Start wieder erscheinen
-        '''
-        SlotMouseoverVerySlowEasterEgg: "Der Weihnachtsmann ist nicht real"
-        Input: "Gib hier den Namen ein"
-        ApplyButton: "Übernehmen"
-        RandomButton: "Zufällig"
-        ClearButton: "Löschen"
-        CloseButton: "Schließen"
-      }
-    }
-  }
+		Buffs.PetBuff.Name: Name: {0}
+
+		Items: {
+			PetItems: {
+				PetName: Haustiername: {0}
+				PetOwner: Besitzer: {0}
+				PetRename: Haustier-Umbenennung: Drücke '{0}', um dein Haustier zu benennen
+			}
+		}
+
+		UI: {
+			RenamePetUI: {
+				Title: Haustier umbenennen
+				SlotMouseover: Platziere ein Haustier-Beschwörungsitem hier
+				SlotMouseoverSlow: {
+					'''
+					1. Platziere ein Haustier-Beschwörungsitem hier
+					2. Gib einen Namen in das Textfeld ein
+					2. (optional) Drücke 'Löschen', um den Text zu entfernen
+					2. (optional) Drücke 'Zufall', um einen zufälligen Namen zu erhalten
+					3. Drücke 'Übernehmen', um den Namen aus dem Textfeld als Namen für das Haustier zu setzen
+					3. (optional) Nimm das Item heraus
+					4. Drücke 'X', um zu schließen. Das Item wird dir zurückgegeben, wenn es sich noch in der UI befindet
+					Hinweis: Wenn du die UI mit einem Item darin offen lässt und das Spiel schließt, wird es beim nächsten Spielstart wieder angezeigt
+					'''
+				}
+			  SlotMouseoverVerySlowEasterEgg: Der Weihnachtsmann ist nicht echt
+				Input: Namen hier eingeben
+				ApplyButton: Übernehmen
+				RandomButton: Zufall
+				ClearButton: Löschen
+				CloseButton: Schließen
+			}
+		}
+
+		PlayerSelectScreenUI.PetNameInSelectScreen: "{0} & {1}"
+	}
 }
