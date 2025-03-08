@@ -1,9 +1,7 @@
 Mods: {
   PetRenamer: {
     Keybinds: {
-      RenamePet: {
-        Label: "Haustier umbenennen"
-      }
+      RenamePet.DisplayName: "Haustier umbenennen"
       Unbound: "<nicht gebunden>"
     }
 
