@@ -67,3 +67,4 @@ List of localization contributors:
 * Italian: **Sea Noodle**
 * Simplified Chinese: **Fox Radish, Lacewing**
 * Spanish: **CDT_Maggot**
+* German: **Lighty**

@@ -47,7 +47,7 @@ Mods: {
 			RenamePetUI: {
 				Title: Haustier umbenennen
 				SlotMouseover: Platziere ein Haustier-Beschwörungsitem hier
-				SlotMouseoverSlow: {
+				SlotMouseoverSlow:
 					'''
 					1. Platziere ein Haustier-Beschwörungsitem hier
 					2. Gib einen Namen in das Textfeld ein
@@ -56,10 +56,9 @@ Mods: {
 					3. Drücke 'Übernehmen', um den Namen aus dem Textfeld als Namen für das Haustier zu setzen
 					3. (optional) Nimm das Item heraus
 					4. Drücke 'X', um zu schließen. Das Item wird dir zurückgegeben, wenn es sich noch in der UI befindet
-					Hinweis: Wenn du die UI mit einem Item darin offen lässt und das Spiel schließt, wird es beim nächsten Spielstart wieder angezeigt
+					Hinweis: Wenn du die UI mit einem Item darin offen lässt und das Spiel schließt, taucht es beim nächsten Spielstart wieder auf
 					'''
-				}
-			  SlotMouseoverVerySlowEasterEgg: Der Weihnachtsmann ist nicht echt
+				SlotMouseoverVerySlowEasterEgg: Der Weihnachtsmann ist nicht echt
 				Input: Namen hier eingeben
 				ApplyButton: Übernehmen
 				RandomButton: Zufall

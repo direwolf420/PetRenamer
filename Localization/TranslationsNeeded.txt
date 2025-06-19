@@ -1,5 +1,5 @@
 en-US, 28/28, 100%, missing 0
-de-DE, 0/28, 0%, missing 28
+de-DE, 28/28, 100%, missing 0
 it-IT, 28/28, 100%, missing 0
 fr-FR, 0/28, 0%, missing 28
 es-ES, 28/28, 100%, missing 0
